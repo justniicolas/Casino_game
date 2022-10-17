@@ -22,7 +22,7 @@ class Joueur:
             try:
                 int(self.pseudo) != False
             except ValueError:
-                print("Bienvenue {} sur la table de la Roulette du Zcasino !".format(self.pseudo))
+                print("Bienvenue {} sur la table de la Roulette du casino !".format(self.pseudo))
                 NomCorrect = True
             else :
                 print("Il y a une erreur, êtes vous certain de votre frappe ?")
